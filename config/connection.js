@@ -1,13 +1,10 @@
 const { connect, connection } = require("mongoose");
 
-// MongoDB connection string (ensure environment variables for flexibility)
-const connectionString = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialNetworkAPI";
+// MongoDB connection string
+const connectionString = 'mongodb+srv://dbUser:dbUserPassword@cluster0.86ovs.mongodb.net/';
 
 // Connect to MongoDB
-connect(connectionString, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+connect(connectionString);
 
 // Export the connection for use in the app
 module.exports = connection;

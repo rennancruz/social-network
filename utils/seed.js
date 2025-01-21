@@ -76,7 +76,7 @@ connection.once("open", async () => {
       }
     }
 
-    console.log("Seeding complete! 🌱");
+    console.log("Seeding complete!");
   } catch (err) {
     console.error("Error during seeding:", err);
   } finally {
