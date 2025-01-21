@@ -13,6 +13,9 @@ This is a simple backend application for a social network. It allows users to sh
   - Users can create, update, and delete thoughts.
   - Thoughts can have reactions (similar to comments), which can also be added or removed.
 
+## Demo
+https://github.com/user-attachments/assets/a519488c-a0a7-463a-96d7-27f5541f57ef
+
 ## Technologies Used
 
 - **MongoDB** (Database)
